@@ -1,0 +1,58 @@
+//-----------------------------------------------------------------
+// Animation Turbine Resources
+//-----------------------------------------------------------------
+#include <windows.h>
+#include "Ressource.h"
+
+//-----------------------------------------------------------------
+// Icons
+//-----------------------------------------------------------------
+IDI_TURBINE_32     ICON         "Ressources/Turbine_32.ico"
+IDI_TURBINE_16     ICON         "Ressources/Turbine_16.ico"
+
+//-----------------------------------------------------------------
+// Bitmaps
+//-----------------------------------------------------------------
+IDB_BACKGROUND_TOP  BITMAP       "Ressources/Background_top.bmp"
+IDB_BACKGROUND_MID  BITMAP       "Ressources/Background_middle.bmp"
+IDB_BUTTON_1        BITMAP       "Ressources/BUTTON1.bmp"
+IDB_BUTTON_2        BITMAP       "Ressources/BUTTON2.bmp"
+IDB_BUTTON_3        BITMAP       "Ressources/BUTTON3.bmp"
+IDB_BUTTON_4        BITMAP       "Ressources/BUTTON4.bmp"
+IDB_BUTTON_5        BITMAP       "Ressources/BUTTON5.bmp"
+IDB_BUTTON_6        BITMAP       "Ressources/BUTTON6.bmp"
+IDB_BUTTON_7        BITMAP       "Ressources/BUTTON7.bmp"
+IDB_BUTTON_8        BITMAP       "Ressources/BUTTON8.bmp"
+IDB_TURBINE         BITMAP       "Ressources/Turbine.bmp"
+IDB_HOUSE           BITMAP       "Ressources/House.bmp"
+IDB_LAMP_OFF        BITMAP       "Ressources/Lamp_off.bmp"
+IDB_LAMP_ON         BITMAP       "Ressources/Lamp_on.bmp"
+
+
+
+1 VERSIONINFO
+FILEVERSION 1,5,1,37
+PRODUCTVERSION 1,5,1,37
+FILETYPE VFT_APP
+{
+  BLOCK "StringFileInfo"
+	 {
+		 BLOCK "040C04E4"
+		 {
+			 VALUE "CompanyName", ""
+			 VALUE "FileVersion", "1.5"
+			 VALUE "FileDescription", ""
+			 VALUE "InternalName", ""
+			 VALUE "LegalCopyright", ""
+			 VALUE "LegalTrademarks", ""
+			 VALUE "OriginalFilename", ""
+			 VALUE "ProductName", "TPE_Anim_Turbine"
+			 VALUE "ProductVersion", "January 2011"
+		 }
+	 }
+  BLOCK "VarFileInfo"
+	 {
+		 VALUE "Translation", 0x040C, 1252
+	 }
+}
+
